@@ -1,0 +1,17 @@
+@startuml plant
+
+class Member {
+  +number: string
+  +asd(): void
+}
+
+class Admin {
+  +number: number
+  +asd(): void
+}
+
+Member-->Admin
+
+@enduml
+
+
