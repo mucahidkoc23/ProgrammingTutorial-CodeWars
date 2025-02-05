@@ -845,3 +845,133 @@ function accum(s) {
 console.log(accum("ZpglnRxqenU"));
 */
 
+//----------------------------------------OOP: Volume of a Cuboid-----------------------------------
+
+// class Kata {
+//   static getVolumeOfCuboid(length, width, height) {
+//     return length * width * height;
+//   }
+// }
+
+// console.log(Kata.getVolumeOfCuboid(1, 2, 2));
+
+//---------------------------------------OOP: Object Oriented Piracy---------------------------------
+
+// class Ship {
+//   constructor(draft, crew) {
+//     this.draft = draft;
+//     this.crew = crew;
+//   }
+//   isWorthIt() {
+//     return this.draft - this.crew * 1.5 > 20 ? true : false;
+//   }
+// }
+
+// let emptyShip = new Ship(0, 0);
+// console.log(emptyShip.isWorthIt());
+
+//-------------------------------------------OOP: Classy Classes-------------------------------------
+
+// class Person {
+//   constructor(name, number) {
+//     this.name = name;
+//     this.number = number;
+//     this.info = `${this.name}s age is ${this.number}`;
+//   }
+// }
+// let john = new Person("john", 34);
+// console.log(john.info);
+
+//-----------------------------------OOP: Basic subclasses - Adam and Eve-----------------------------
+
+// class God {
+//   static create() {
+//     return [new Man(), new Woman()];
+//   }
+// }
+// class Human {}
+// class Man extends Human {}
+// class Woman extends Human {}
+
+// let humans = God.create()
+// console.log(humans[0] instanceof Man);
+
+//--------------------------------------------OOP: Barking mad---------------------------------------
+
+// function Dog(breed) {
+//   this.breed = breed;
+// }
+
+// const snoopy = new Dog("Beagle");
+
+// snoopy.bark = function () {
+//   return "Woof";
+// };
+
+// const scoobydoo = new Dog("Great Dane");
+// scoobydoo.bark = function () {
+//   return "Woof";
+// };
+
+// console.log(snoopy.bark());
+
+//------------------------------------OOP: Finish Guess the Number Game------------------------------
+
+// class Guesser {
+//   constructor(number, lives) {
+//     this.number = number;
+//     this.lives = lives;
+//   }
+
+//   guess(n) {
+//     if (!this.lives) throw "No guesses left";
+//     if (n === this.number) return true;
+//     this.lives--;
+//     return false;
+//   }
+// }
+
+// let guesser = new Guesser(10, 2);
+// console.log(guesser.guess(10));
+
+//---------------------------------------OOP: Playing with cubes II----------------------------------
+
+// class Cube {
+//   constructor(side = 0) {
+//     this.setSide(side);
+//   }
+//   getSide() {
+//     return this.side;
+//   }
+//   setSide(n) {
+//     if (n < 0) {
+//       this.side = Math.abs(n);
+//     } else {
+//       this.side = n;
+//     }
+//   }
+// }
+
+// let cube = new Cube(12);
+// console.log(cube.getSide());
+
+//---------------------------OOP: Fun with ES6 Classes #1 - People, people, people---------------------
+
+// class Person {
+//   constructor(firstName = "John", lastName = "Doe", age = 0, gender = "Male") {
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.age = age;
+//     this.gender = gender;
+//   }
+//   sayFullName() {
+//     return this.firstName + " " + this.lastName;
+//   }
+//   static greetExtraTerrestrials(raceName) {
+//     return `Welcome to Planet Earth ${raceName}`;
+//   }
+// }
+
+// let jane = new Person("Jane", "Doe", 25, "Female");
+// console.log(jane.sayFullName());
+// console.log(Person.greetExtraTerrestrials("Martians"));
