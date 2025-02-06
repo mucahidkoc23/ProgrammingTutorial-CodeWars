@@ -161,7 +161,7 @@ console.log(firstSecond("Mücahid KOÇ"));
 //   return Number(find) < 0 ? 'Your function didn\'t return anything' : `found the needle at position ${find}`;
 // }
 
-// console.log(findN(['reg','needle','rebri',3,undefined]));
+// console.log(findN(['reg', 'needle', 'rebri', 3, undefined]));
 
 //--------------------------------------Is n divisible by x and y?----------------------------------
 
@@ -170,4 +170,53 @@ console.log(firstSecond("Mücahid KOÇ"));
 // }
 
 // console.log(isDivisible(12, 2, 5));
+
+//----------------------------------------Are You Playing Banjo?------------------------------------
+
+// function areYouPlayingBanjo(str: string): string {
+//   return str[0].toLowerCase() === 'r'
+//     ? `${str} plays banjo`
+//     : `${str} does not play banjo`;
+// }
+
+// console.log(areYouPlayingBanjo("RAdam"));
+
+//---------------------------------------How good are you really?-----------------------------------
+
+// function avarege(classPoints: number[], yourPoints: number): boolean {
+//   return classPoints.reduce((acc, crv) => acc + crv, 0) / classPoints.length >
+//     yourPoints
+//     ? false
+//     : true;
+// }
+
+// console.log(avarege([10, 20, 30], 20));
+
+//-------------------------------------------Calculate average---------------------------------------
+
+// function avaregeArray(avarage: number[]): number {
+//   return avarage.length > 0 ? avarage.reduce((acc, crv) => acc + crv, 0) / avarage.length : 0;
+// }
+
+// console.log(avaregeArray([]));
+
+//----------------------------------Count of positives / sum of negative------------------------------
+
+// function countArray(array: number[] | null): number[] {
+//   if (array === null) return [];
+//   let arr1 = array.filter(x => x < 0).reduce((arr, crv) => arr + crv, 0);
+//   let arr2 = array.filter(x => x > 0).length;
+
+//   return array.length === 0 ? [] : [arr2, arr1] ;
+// }
+
+// console.log(countArray(null));
+
+//-----------------------------------------------Fake Binary-------------------------------------------
+
+// function fakeBinary(str: string): string {
+//   return str.split("").map(x => Number(x)).map((x) => (x < 5 ? x * 0 : x / x)).join('')
+// }
+
+// console.log(fakeBinary("345678912345"));
 
