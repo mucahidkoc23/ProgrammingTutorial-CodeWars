@@ -845,7 +845,42 @@ function accum(s) {
 console.log(accum("ZpglnRxqenU"));
 */
 
-//----------------------------------------OOP: Volume of a Cuboid-----------------------------------
+//-----------------------------------Multiplication table for number--------------------------------
+
+// function multiTable(number) {
+//   let total = "";
+//   for (let i = 1; i < 11; i++) {
+//     total += `${i} * ${number} = ${number * i}\n`;
+//   }
+//   return total.trim();
+// }
+
+// console.log(multiTable(5));
+
+//---------------------------------------------Gravity Flip------------------------------------------
+
+// function flip(d, a) {
+//   if (d === "R") return a.sort((a, b) => a - b);
+//   if (d === "L") return a.sort((a, b) => b - a);
+// }
+
+// console.log(flip('R', [3, 2, 1, 2]));
+
+//---------------------------------------------Check same case---------------------------------------
+
+// function sameCase(a, b){
+//   if(a.toUpperCase() === a.toLowerCase() || b.toLowerCase() === b.toUpperCase()){
+//      return -1
+//    }else if(a === a.toLowerCase() && b === b.toLowerCase() || a === a.toUpperCase() && b === b.toUpperCase()){
+//        return 1
+//    }else{
+//      return 0
+//    }
+//  }
+
+// console.log(sameCase('C', 'C'));
+
+//----------------------------------------OOP: Volume of a Cuboid------------------------------------
 
 // class Kata {
 //   static getVolumeOfCuboid(length, width, height) {
