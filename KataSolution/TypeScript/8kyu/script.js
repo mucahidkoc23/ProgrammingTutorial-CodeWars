@@ -92,6 +92,7 @@ function firstSecond(name: string): string {
 }
 
 console.log(firstSecond("Mücahid KOÇ"));
+
 */
 //-------------------------------------------Century From Year---------------------------------------
 // function calc(n: number): number {
@@ -147,3 +148,69 @@ console.log(firstSecond("Mücahid KOÇ"));
 //   return str.split("").map(x => Number(x)).map((x) => (x < 5 ? x * 0 : x / x)).join('')
 // }
 // console.log(fakeBinary("345678912345"));
+//-------------------------------------------DNA to RNA Conversion--------------------------------------
+// function replace(str: string): string {
+//   return str.replaceAll('T','U')
+// }
+// console.log(replace("UTTT"));
+//-------------------------------------------Rock Paper Scissors!---------------------------------------
+// function RPS(str1: string, str2: string): string {
+//   const rules: Record<string, string> = {
+//     scissors: "paper",
+//     rock: "scissors",
+//     paper: "rock",
+//   };
+//   return rules[str1] === str2
+//     ? "Player 1 won!"
+//     : str1 === str2
+//     ? "Draw"
+//     : "Player 2 won!";
+// }
+// console.log(RPS("rock", "rock"));
+//------------------------------------------Total amount of points---------------------------------------
+// function total(str: string[]): number {
+//   let total = 0;
+//   for (let i = 0; i < str.length; i++) {
+//     let a = str[i].split(":")[0];
+//     let b =str[i].split(":")[1];
+//     if (a > b) total += 3;
+//     if (a === b) total += 1;
+//     if (a < b) total + 0;
+//   }
+//   return total;
+// }
+// console.log(total(["3:1", "1:1", "2:1","1:2"]));
+/*OR Solutıon 2
+
+function total(games: string[]): number {
+  return games.reduce(
+    (acc, crv) => acc + Number(crv[0] > crv[2] ? 3 : crv[0] === crv[2] ? 1 : 0),
+    0
+  );
+}
+
+console.log(total(["3:1", "1:1", "2:1", "1:2"]));
+
+ */
+//---------------------------------------------Switch it Up!-------------------------------------------
+// function switchItUp(number: number): string {
+//   let object: Record<number, string> = {
+//     0: "Zero",
+//     1: "One",
+//     2: "Two",
+//     3: "Three",
+//     4: "Four",
+//     5: "Five",
+//     6: "Six",
+//     7: "Seven",
+//     8: "Eight",
+//     9: "Nine"
+//   };
+//   return object[number];
+// }
+// console.log(switchItUp(1));
+//----------------------------------------------Double Char--------------------------------------------
+// function doubleChar(str: string): string {
+//   return str.split('').map(x => x.repeat(2)).join('')
+// }
+// console.log(doubleChar("AAaabb"));
