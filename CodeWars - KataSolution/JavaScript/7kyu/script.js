@@ -128,3 +128,114 @@
 // }
 
 // console.log(getCount("abracadabra"));
+
+//--------------------------------------------Shortest Word-----------------------------------------
+
+// function findShort(s) {
+//   return Math.min(...s.split(" ").map((x) => x.length));
+// }
+
+// console.log(findShort("bitcoin take over the world maybe who knows perhaps"));
+
+//------------------------------------------Complementary DNA---------------------------------------
+
+// function dnaStrand(dna) {
+//   return dna
+//     .split("")
+//     .map((x) =>
+//       x === "A" ? "T" : x === "T" ? "A" : x === "G" ? "C" : x === "C" ? "G" : ""
+//     )
+//     .join("");
+// }
+
+// console.log(dnaStrand("ATCG"));
+
+/* OR Solution 2
+
+let pairs = { A: "T", T: "A", C: "G", G: "C" };
+
+function dnaStrand(dna) {
+  return dna
+    .split("")
+    .map(v => pairs[v])
+    .join("");
+}
+
+console.log(dnaStrand("ATCG"));
+
+*/
+
+//------------------------------------------Credit Card Mask----------------------------------------
+
+// function maskify(cc) {
+//   let ccA = cc.split("");
+//   let ccAL = cc.split("").length;
+//   let ccAReverse = cc.split("").reverse();
+//   let a = /./g;
+
+//   let first = [];
+//   let second = [];
+
+//   for (let i = 0; i <= 3; i++) {
+//     first.push(ccAReverse[i]);
+//   }
+
+//   for (let i = 0; i < ccAL - 4; i++) {
+//     second.push(ccA[i])
+//   }
+
+//   return second.join("").replaceAll(a, '#') + first.reverse().join("");
+// }
+
+// console.log(maskify("4556364607935616"));
+
+/* OR Soulution 2
+
+function maskify(cc) {
+  return cc.slice(0, -4).replace(/./g, '#') + cc.slice(-4);
+}
+
+console.log(maskify("4556364607935616"));
+
+*/
+
+//---------------------------------Sum of two lowest positive integers------------------------------
+
+// function sumTwoSmallestNumbers(numbers) {
+//   let total = numbers.sort((a, b) => a - b);
+//   return total[0] + total[1];
+// }
+
+// console.log(sumTwoSmallestNumbers([19, 5, 42, 2, 77]));
+
+//--------------------------------------------Sum of Numbers----------------------------------------
+
+// function getSum(a, b) {
+//   let total = 0;
+//   if (a === b) {
+//     return a;
+//   }
+//   if (a < b) {
+//     for (let i = a; i <= b; i++) {
+//       total += i;
+//     }
+//   }
+//   if (a > b) {
+//     for (let i = b; i <= a; i++) {
+//       total += i;
+//     }
+//   }
+//   return total;
+// }
+
+// console.log(getSum(0, 2));
+
+/* OR Solution 2
+function GetSum(a,b)
+{
+  return (Math.abs(a - b) + 1) * (a+b) / 2;
+}
+
+console.log(getSum(0, 2));
+
+ */
