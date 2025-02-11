@@ -25,3 +25,48 @@
 //   return friends.filter((x) => x.length === 4);
 // }
 // console.log(friend(["Ryan", "Kieran", "Mark"]));
+//----------------------------------------------Two to One------------------------------------------
+// function longest(s1: string, s2: string): string {
+//   let con = `${s1.split(" ")}${s2.split(" ")}`.split("").sort();
+//   return [...new Set(con)].join("");
+// }
+// console.log(longest("aretheyhere", "yestheyarehere"));
+//-----------------------------------------Categorize New Member------------------------------------
+// function openOrSenior(data: number[][]): string[] {
+//   return data.map(([age, handicap]) =>
+//     age > 54 && handicap > 7 ? "Senior" : "Open"
+//   );
+// }
+// console.log(
+//   openOrSenior([
+//     [45, 12],
+//     [55, 21],
+//     [19, -2],
+//     [104, 20],
+//   ])
+// );
+//------------------------------------------String ends with?---------------------------------------
+// function solution(str: string, ending: string): boolean {
+//   return str.endsWith(ending);
+// }
+// console.log(solution("abc", "bc"));
+//------------------------------------Find the next perfect square!---------------------------------
+// function findNextSquare(sq: number): number {
+//   let number = Math.sqrt(sq);
+//   let number2 = Math.sqrt(sq) + 1;
+//   return sq % number === 0 ? number2 * number2 : -1;
+// }
+// console.log(findNextSquare(100));
+//---------------------------------------------Exes and Ohs-----------------------------------------
+// function XO(str: string): boolean {
+//   let x = str
+//     .toLowerCase()
+//     .split("")
+//     .filter((f) => f === "x");
+//   let o = str
+//     .toLowerCase()
+//     .split("")
+//     .filter((f) => f === "o");
+//   return o.length === x.length ? true : false;
+// }
+// console.log(XO("xo"));
