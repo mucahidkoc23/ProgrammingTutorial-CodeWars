@@ -239,3 +239,95 @@ function GetSum(a,b)
 console.log(getSum(0, 2));
 
  */
+//--------------------------------------------Friend or Foe?----------------------------------------
+
+// function friend(friends){
+//   return friends.filter(x => x.length === 4)
+// }
+
+// console.log(friend(["Ryan", "Kieran", "Mark"]));
+
+//----------------------------------------------Two to One------------------------------------------
+
+// function longest(s1, s2) {
+//   let con = (s1.split(" ") + s2.split(" ")).split("").sort();
+//   return [...new Set(con)].join("");
+// }
+
+// console.log(longest("aretheyhere", "yestheyarehere"));
+
+//-----------------------------------------Categorize New Member------------------------------------
+
+// function openOrSenior(data) {
+//   let result = [];
+//   for (let i = 0; i < data.length; i++) {
+//     let a = data[i][0];
+//     let b = data[i][1];
+//     if (a >= 55 && b > 7) {
+//       result.push("Senior");
+//     } else {
+//       result.push("Open");
+//     }
+//   }
+//   return result;
+// }
+
+// console.log(
+//   openOrSenior([
+//     [45, 12],
+//     [55, 21],
+//     [19, -2],
+//     [104, 20],
+//   ])
+// );
+
+/* OR Solution 2
+
+function openOrSenior(data) {
+  return data.map(([age, handicap]) =>
+    age > 54 && handicap > 7 ? "Senior" : "Open"
+  );
+}
+
+console.log(
+  openOrSenior([
+    [45, 12],
+    [55, 21],
+    [19, -2],
+    [104, 20],
+  ])
+);
+
+*/
+
+//------------------------------------------String ends with?---------------------------------------
+
+// function solution(str, ending) {
+//   if (!ending) {
+//     return false;
+//   }
+//   let end = ending.length;
+//   return str.slice(-end) === ending ? true : false;
+// }
+
+// console.log(solution('abc', ''));
+
+/* OR Solution 2
+
+function solution(str, ending){
+  return str.endsWith(ending);
+}
+
+console.log(solution('abc', 'bc'));
+
+*/
+
+//------------------------------------Find the next perfect square!---------------------------------
+
+// function findNextSquare(sq) {
+//   let number = Math.sqrt(sq);
+//   let number2 = Math.sqrt(sq) + 1;
+//   return sq % number === 0 ?  number2 * number2 : -1 ;
+// }
+
+// console.log(findNextSquare(100));
