@@ -70,3 +70,42 @@
 //   return o.length === x.length ? true : false;
 // }
 // console.log(XO("xo"));
+//------------------------------------------Descending Order----------------------------------------
+// function descendingOrder(n: number): number {
+//   let divide = n.toString().split("").sort().reverse().join("");
+//   return Number(divide);
+// }
+// console.log(descendingOrder(1201));
+//-------------------------------------------List Filtering-----------------------------------------
+// function filter_list(l: Array<any>): Array<number> {
+//   return l.filter((f) => typeof f === "number");
+// }
+// console.log(filter_list([1,2,'a','b']));
+//--------------------------------------Get the Middle Character------------------------------------
+// function getMiddle(s: string): string{
+//   let divide = s.length;
+//   let calEven = divide / 2;
+//   let calOdd = Math.floor(s.length / 2);
+//   let even = s.split("")[calEven - 1] + s.split("")[calEven];
+//   let odd = s.split("")[calOdd];
+//   return divide === 0 ? '' : divide % 2 === 0 ? even : odd;
+// }
+// console.log(getMiddle('test'));
+//------------------------------------------You're a square!----------------------------------------
+// const isSquare = function (n: number): boolean {
+//   let sq = Math.sqrt(n);
+//   return sq % 1 != 0 ? false : true;
+// };
+// console.log(isSquare(4));
+//----------------------------------------------Mumbling--------------------------------------------
+// function accum(s:string) : string {
+//   let uArr = s.toUpperCase().split("");
+//   let arr = [];
+//   let concat = []
+//   for (let i = 0; i <= s.length - 1; i++) {
+//     arr.push(s[i].repeat(i).toLowerCase());
+//     concat[i] = uArr[i] + arr[i];
+//   }
+//   return concat.join("-");
+// }
+// console.log(accum('ZpglnRxqenU'));
