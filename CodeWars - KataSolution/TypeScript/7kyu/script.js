@@ -109,3 +109,81 @@
 //   return concat.join("-");
 // }
 // console.log(accum('ZpglnRxqenU'));
+//-----------------------------------------Complementary DNA----------------------------------------
+// class Kata {
+//   static dnaStrand(dna: string) : string {
+//     return dna
+//       .split("")
+//       .map((x) =>
+//         x === "A"
+//           ? "T"
+//           : x === "T"
+//           ? "A"
+//           : x === "G"
+//           ? "C"
+//           : x === "C"
+//           ? "G"
+//           : ""
+//       )
+//       .join("");
+//   }
+// }
+// console.log(Kata.dnaStrand("AAAA"));
+//-----------------------------------------Highest and Lowest---------------------------------------
+// class Kata {
+//   static highAndLow(numbers: string): string {
+//     let numArray = numbers.split(" ").map((x) => Number(x));
+//     let min = Math.min(...numArray);
+//     let max = Math.max(...numArray);
+//     return `${max} ${min}`;
+//   }
+// }
+// console.log(Kata.highAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4"));
+//-----------------------------------------Square Every Digit---------------------------------------
+// class Kata {
+//   static squareDigits(num: number): number {
+//     let divide = num.toString().split("").map(x => Number(x));
+//     let sq = divide.map((x) => x ** 2);
+//     return Number(sq.join(""));
+//   }
+// }
+// console.log(Kata.squareDigits(9119));
+//-----------------------------------------Disemvowel Trolls----------------------------------------
+// class Kata {
+//   static disemvowel(str: string): string {
+//     let arr: string[] = [];
+//     str
+//       .split("")
+//       .forEach((d) =>
+//         d === "a" ||
+//         d === "e" ||
+//         d === "i" ||
+//         d === "o" ||
+//         d === "u" ||
+//         d === "A" ||
+//         d === "E" ||
+//         d === "O" ||
+//         d === "U" ||
+//         d === "I"
+//           ? ""
+//           : arr.push(d)
+//       );
+//     return arr.join("");
+//   }
+// }
+// console.log(Kata.disemvowel("This website is for losers LOL!"));
+//---------------------------------------------Vowel Count--------------------------------------------
+// class Kata {
+//   static getCount(str: string): number {
+//     let count = 0;
+//     str
+//       .split("")
+//       .forEach((d) =>
+//         d === "a" || d === "e" || d === "i" || d === "o" || d === "u"
+//           ? count++
+//           : ""
+//       );
+//     return count;
+//   }
+// }
+// console.log(Kata.getCount("abracadabra"));
