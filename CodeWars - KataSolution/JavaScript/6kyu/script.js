@@ -45,3 +45,19 @@
 // console.log(
 //   likes(["Jacob", "Alex", "Ale", "alis", "Jacob", "Alex", "Ale", "alis"])
 // );
+
+//----------------------------------------------Array.diff-------------------------------------------
+
+// function arrayDiff(a, b) {
+//   return a.filter((e) => !b.includes(e));
+// }
+
+// console.log(arrayDiff([1, 2, 2, 2, 3, 3], [1, 3]));
+
+//-------------------------------------------Find the odd int----------------------------------------
+
+// function findOdd(arr) {
+//   return arr.find((item, index) => arr.filter((el) => el == item).length % 2);
+// }
+
+// console.log(findOdd([1,2,2,3,3,3,4,3,3,3,2,2,1]));
