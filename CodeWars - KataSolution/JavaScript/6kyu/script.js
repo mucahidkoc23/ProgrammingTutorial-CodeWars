@@ -126,15 +126,15 @@ console.log(sumDigitsUntilSingle(9876));
 
 //-----------------------------------------Counting Duplicates---------------------------------------
 
-function duplicateCount(text) {
-  return (
-    text
-      .toLowerCase()
-      .split("")
-      .sort()
-      .join("")
-      .match(/([^])\1+/g) || []
-  ).length;
-}
+// function duplicateCount(text) {
+//   return (
+//     text
+//       .toLowerCase()
+//       .split("")
+//       .sort()
+//       .join("")
+//       .match(/([^])\1+/g) || []
+//   ).length;
+// }
 
-console.log(duplicateCount("aa"));
+// console.log(duplicateCount("aa"));
