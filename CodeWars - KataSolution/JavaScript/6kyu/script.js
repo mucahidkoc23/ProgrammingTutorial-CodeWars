@@ -61,3 +61,80 @@
 // }
 
 // console.log(findOdd([1,2,2,3,3,3,4,3,3,3,2,2,1]));
+
+//--------------------------------------Sum of Digits / Digital Root----------------------------------
+
+// function digitalRoot(n) {
+//   total = n;
+//   while (total >= 10) {
+//     total = total
+//       .toString()
+//       .split("")
+//       .map((x) => Number(x))
+//       .reduce((acc, crv) => acc + crv, 0);
+//   }
+//   return total;
+// }
+
+// console.log(digitalRoot(12341));
+
+/*OR Solution 2
+
+function digitalRoot(n) {
+  let total = n
+    .toString()
+    .split("")
+    .map(Number)
+    .reduce((acc, crv) => acc + crv, 0);
+
+  return total < 10 ? total : digitalRoot(total);
+}
+
+console.log(sumDigitsUntilSingle(9876));
+ */
+
+//------------------------------------------Create Phone Number--------------------------------------
+
+// function createPhoneNumber(numbers) {
+//   return `(${numbers.slice(0, 3).join("")}) ${numbers
+//     .slice(3, 6)
+//     .join("")}-${numbers.slice(6, 9).join("")}`;
+// }
+
+// console.log(createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]));
+
+//---------------------------------------------Bit Counting------------------------------------------
+
+// function countBits(n) {
+//   return n
+//     .toString(2)
+//     .split("")
+//     .filter((x) => x === "1").length;
+// }
+
+// console.log(countBits(25));
+
+//---------------------------------------Find The Parity Outlier-------------------------------------
+
+// function findOutlier(integers) {
+//   let odd = integers.filter((x) => x % 2 === 1 || x % 2 === -1);
+//   let even = integers.filter((x) => x % 2 === 0 || x % 2 === -0);
+//   return odd.length === 1 ? odd[0] : even[0];
+// }
+
+// console.log(findOutlier([-1,2,4]));
+
+//-----------------------------------------Counting Duplicates---------------------------------------
+
+function duplicateCount(text) {
+  return (
+    text
+      .toLowerCase()
+      .split("")
+      .sort()
+      .join("")
+      .match(/([^])\1+/g) || []
+  ).length;
+}
+
+console.log(duplicateCount("aa"));
