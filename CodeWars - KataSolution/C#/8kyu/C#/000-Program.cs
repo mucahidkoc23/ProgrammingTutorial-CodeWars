@@ -51,6 +51,20 @@ namespace C_
             //Convert number to reversed array of digits
             //Console.WriteLine(JsonSerializer.Serialize(ConvertNumberToReversedArrayOfDigits.Digitize(12345)));
 
+            //Calculate average
+            //Console.WriteLine(CalculateAverage.FindAverage(new double[] { 1, 2, 3 }));
+
+            //Count of positives / sum of negatives
+            //Console.WriteLine(JsonSerializer.Serialize(CountOfPositivesSumOfNegatives.CountPositivesSumNegatives(null)));
+
+            //Remove exclamation marks
+            //Console.WriteLine(RemoveExclamationMarks.RemoveExclamationMark("Hi!"));
+
+            //Array plus array
+            //Console.WriteLine(ArrayPlusArray.ArrayPlus(new int[] { 1, 2, 3 }, new int[] { 4, 5, 6 }));
+
+            //Area or Perimeter
+            //Console.WriteLine(AreaOrPerimeter.AreaOrPerimeters(4,5));
             Console.ReadKey();
         }
     }
