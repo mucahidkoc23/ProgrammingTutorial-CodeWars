@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mucahid\\Desktop\\ProgrammingTutorial\\CodeWars - KataSolution\\C#\\7kyu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85053157-407D-43EE-BB01-D07DF3689A7D}|C#\\C#.csproj|c:\\users\\mucahid\\desktop\\programmingtutorial\\codewars - katasolution\\c#\\7kyu\\c#\\005-descendingorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85053157-407D-43EE-BB01-D07DF3689A7D}|C#\\C#.csproj|solutionrelative:c#\\005-descendingorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85053157-407D-43EE-BB01-D07DF3689A7D}|C#\\C#.csproj|c:\\users\\mucahid\\desktop\\programmingtutorial\\codewars - katasolution\\c#\\7kyu\\c#\\000-program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85053157-407D-43EE-BB01-D07DF3689A7D}|C#\\C#.csproj|solutionrelative:c#\\000-program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "005-DescendingOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Mucahid\\Desktop\\ProgrammingTutorial\\CodeWars - KataSolution\\C#\\7kyu\\C#\\005-DescendingOrder.cs",
+              "RelativeDocumentMoniker": "C#\\005-DescendingOrder.cs",
+              "ToolTip": "C:\\Users\\Mucahid\\Desktop\\ProgrammingTutorial\\CodeWars - KataSolution\\C#\\7kyu\\C#\\005-DescendingOrder.cs",
+              "RelativeToolTip": "C#\\005-DescendingOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T15:04:23.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "000-Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mucahid\\Desktop\\ProgrammingTutorial\\CodeWars - KataSolution\\C#\\7kyu\\C#\\000-Program.cs",
+              "RelativeDocumentMoniker": "C#\\000-Program.cs",
+              "ToolTip": "C:\\Users\\Mucahid\\Desktop\\ProgrammingTutorial\\CodeWars - KataSolution\\C#\\7kyu\\C#\\000-Program.cs",
+              "RelativeToolTip": "C#\\000-Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T10:25:29.726Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

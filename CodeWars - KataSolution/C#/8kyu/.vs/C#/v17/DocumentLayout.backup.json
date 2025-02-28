@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Mucahid\\Desktop\\ProgrammingTutorial\\CodeWars - KataSolution\\C#\\8kyu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3493FBB-3635-4AA1-A0AA-5167906E5DE2}|C#\\C#.csproj|c:\\users\\mucahid\\desktop\\programmingtutorial\\codewars - katasolution\\c#\\8kyu\\c#\\000-program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3493FBB-3635-4AA1-A0AA-5167906E5DE2}|C#\\C#.csproj|solutionrelative:c#\\000-program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3493FBB-3635-4AA1-A0AA-5167906E5DE2}|C#\\C#.csproj|c:\\users\\mucahid\\desktop\\programmingtutorial\\codewars - katasolution\\c#\\8kyu\\c#\\020-areaorperimeter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3493FBB-3635-4AA1-A0AA-5167906E5DE2}|C#\\C#.csproj|solutionrelative:c#\\020-areaorperimeter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3493FBB-3635-4AA1-A0AA-5167906E5DE2}|C#\\8kyu.csproj|c:\\users\\mucahid\\desktop\\programmingtutorial\\codewars - katasolution\\c#\\8kyu\\c#\\000-program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3493FBB-3635-4AA1-A0AA-5167906E5DE2}|C#\\8kyu.csproj|solutionrelative:c#\\000-program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,23 +24,9 @@
               "RelativeDocumentMoniker": "C#\\000-Program.cs",
               "ToolTip": "C:\\Users\\Mucahid\\Desktop\\ProgrammingTutorial\\CodeWars - KataSolution\\C#\\8kyu\\C#\\000-Program.cs",
               "RelativeToolTip": "C#\\000-Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwEIAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T10:52:14.404Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "020-AreaOrPerimeter.cs",
-              "DocumentMoniker": "C:\\Users\\Mucahid\\Desktop\\ProgrammingTutorial\\CodeWars - KataSolution\\C#\\8kyu\\C#\\020-AreaOrPerimeter.cs",
-              "RelativeDocumentMoniker": "C#\\020-AreaOrPerimeter.cs",
-              "ToolTip": "C:\\Users\\Mucahid\\Desktop\\ProgrammingTutorial\\CodeWars - KataSolution\\C#\\8kyu\\C#\\020-AreaOrPerimeter.cs",
-              "RelativeToolTip": "C#\\020-AreaOrPerimeter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T22:35:21Z",
+              "WhenOpened": "2025-02-28T10:23:05.665Z",
               "EditorCaption": ""
             }
           ]

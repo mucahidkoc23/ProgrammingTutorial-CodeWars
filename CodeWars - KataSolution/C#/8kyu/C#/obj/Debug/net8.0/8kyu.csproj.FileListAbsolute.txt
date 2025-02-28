@@ -1,0 +1,15 @@
+C:\Users\Mucahid\Desktop\ProgrammingTutorial\CodeWars - KataSolution\C#\8kyu\C#\bin\Debug\net8.0\8kyu.exe
+C:\Users\Mucahid\Desktop\ProgrammingTutorial\CodeWars - KataSolution\C#\8kyu\C#\bin\Debug\net8.0\8kyu.deps.json
+C:\Users\Mucahid\Desktop\ProgrammingTutorial\CodeWars - KataSolution\C#\8kyu\C#\bin\Debug\net8.0\8kyu.runtimeconfig.json
+C:\Users\Mucahid\Desktop\ProgrammingTutorial\CodeWars - KataSolution\C#\8kyu\C#\bin\Debug\net8.0\8kyu.dll
+C:\Users\Mucahid\Desktop\ProgrammingTutorial\CodeWars - KataSolution\C#\8kyu\C#\bin\Debug\net8.0\8kyu.pdb
+C:\Users\Mucahid\Desktop\ProgrammingTutorial\CodeWars - KataSolution\C#\8kyu\C#\obj\Debug\net8.0\8kyu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mucahid\Desktop\ProgrammingTutorial\CodeWars - KataSolution\C#\8kyu\C#\obj\Debug\net8.0\8kyu.AssemblyInfoInputs.cache
+C:\Users\Mucahid\Desktop\ProgrammingTutorial\CodeWars - KataSolution\C#\8kyu\C#\obj\Debug\net8.0\8kyu.AssemblyInfo.cs
+C:\Users\Mucahid\Desktop\ProgrammingTutorial\CodeWars - KataSolution\C#\8kyu\C#\obj\Debug\net8.0\8kyu.csproj.CoreCompileInputs.cache
+C:\Users\Mucahid\Desktop\ProgrammingTutorial\CodeWars - KataSolution\C#\8kyu\C#\obj\Debug\net8.0\8kyu.sourcelink.json
+C:\Users\Mucahid\Desktop\ProgrammingTutorial\CodeWars - KataSolution\C#\8kyu\C#\obj\Debug\net8.0\8kyu.dll
+C:\Users\Mucahid\Desktop\ProgrammingTutorial\CodeWars - KataSolution\C#\8kyu\C#\obj\Debug\net8.0\refint\8kyu.dll
+C:\Users\Mucahid\Desktop\ProgrammingTutorial\CodeWars - KataSolution\C#\8kyu\C#\obj\Debug\net8.0\8kyu.pdb
+C:\Users\Mucahid\Desktop\ProgrammingTutorial\CodeWars - KataSolution\C#\8kyu\C#\obj\Debug\net8.0\8kyu.genruntimeconfig.cache
+C:\Users\Mucahid\Desktop\ProgrammingTutorial\CodeWars - KataSolution\C#\8kyu\C#\obj\Debug\net8.0\ref\8kyu.dll
